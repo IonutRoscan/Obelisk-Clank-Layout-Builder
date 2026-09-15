@@ -1,0 +1,62 @@
+{
+  "manifest_version": 3,
+  "name": "Obelisk: Clank Layout Builder",
+  "version": "2.1.0",
+  "description": "Visual profile editor, themes, kits and layout tools for ClankWorld character profiles.",
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.clank.world/*"
+      ],
+      "all_frames": true,
+      "match_about_blank": true,
+      "css": [
+        "style.css"
+      ],
+      "js": [
+        "js/tool-meta.js",
+        "js/storage.js",
+        "js/core.js",
+        "js/fonts.js",
+        "js/modal.js",
+        "js/controllers.js",
+        "js/tools/basic.js",
+        "js/tools/profile.js",
+        "js/tools/character.js",
+        "js/tools/lore.js",
+        "js/tools/themes.js",
+        "js/tools/media.js",
+        "js/tools/interactive.js",
+        "js/tools/social.js",
+        "js/studio.js",
+        "js/panel.js",
+        "content.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "momoi-dancing-avatar.gif"
+      ],
+      "matches": [
+        "*://*.clank.world/*"
+      ]
+    }
+  ],
+  "action": {
+    "default_title": "Obelisk — Clank Layout Builder",
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+}

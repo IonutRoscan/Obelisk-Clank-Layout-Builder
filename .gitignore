@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local packaging artifacts
+*.zip
+*.xpi
+*.crx
+*.pem
+/dist/
+/release/
+
+# Logs
+*.log
