@@ -77,16 +77,7 @@ Signature kits are still editable. They are not locked templates.
 
 When updating an unpacked copy, replace the old files and press **Reload** on the extension card.
 
-### Firefox
 
-For local testing:
-
-1. Extract the release ZIP.
-2. Open `about:debugging#/runtime/this-firefox`.
-3. Choose **Load Temporary Add-on**.
-4. Select Obelisk's `manifest.json`.
-
-Temporary add-ons are removed when Firefox restarts. Permanent Firefox distribution requires a signed add-on package.
 
 ## Using Obelisk
 

@@ -7,5 +7,4 @@
 *.webp binary
 *.ico binary
 *.zip binary
-*.xpi binary
 *.crx binary
